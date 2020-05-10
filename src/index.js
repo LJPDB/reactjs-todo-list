@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import TodoComponent from "./components/TodoContainer";
+import TodoContainer from "./components/TodoContainer";
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <TodoComponent />
+    <TodoContainer />
   </React.StrictMode>,
   document.getElementById('root')
 );
